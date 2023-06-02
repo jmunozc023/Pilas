@@ -13,6 +13,10 @@ public class Pilas {
         /*System.out.println("el valor extraido es: " + pila.pop());*/
         pila.push(7);
         pila.push(6);
+        /*if (pila.pilaLlena(0)) {
+            
+        } else {
+        }
         /*System.out.println("el segundo valor extraido es: " + pila.pop());*/
         pila.mostrarPila();
 
