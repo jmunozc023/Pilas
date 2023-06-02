@@ -55,4 +55,24 @@ public class Pila {
             System.out.println(aux);
         }
     }
+    public void extFondo(){
+        int aux=0;
+        while (pilaVacia()==false) {
+            aux= pop();
+        }
+        System.out.println(aux);
+    }
+    public void pasarDatos(){
+        int aux=0;
+        Pila pilaDos= new Pila(tamano());
+        while (pilaVacia()==false) {
+            aux= pop();
+            if (pilaDos.pilaLlena(tamano())==false) {
+                pilaDos.push(aux);
+            } else {
+                System.out.println("Esta llena");
+            }
+        }
+    }
+
 }
