@@ -10,7 +10,9 @@ public class Pilas {
         Pila pila = new Pila(4);
         pila.push(8);
         pila.push(9);
-        /*System.out.println("el valor extraido es: " + pila.pop());*/
+        System.out.println("el valor extraido es: " + pila.pop());
+        System.out.println("el valor extraido es: " + pila.pop());
+        System.out.println("el valor extraido es: " + pila.pop());
         pila.push(7);
         pila.push(6);
         /*if (pila.pilaLlena(0)) {
